@@ -2,7 +2,7 @@
 // change synopsys_dc.setup file to .synopsys_dc.setup
 //add synthesize.tcl
 //change library search path to "/home/nfs_cad/lib/CBDK_IC_Contest_v2.1/SynopsysDC/db/  $search_path" in .setup file
-//csh  dc_shell -f synthesize.tcl
+//dc_shell -f synthesize.tcl
 
 module huffman(clk, reset, gray_valid, gray_data, CNT_valid, CNT1, CNT2, CNT3, CNT4, CNT5, CNT6,
     code_valid, HC1, HC2, HC3, HC4, HC5, HC6, M1, M2, M3, M4, M5, M6);
